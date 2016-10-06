@@ -9,15 +9,20 @@
 	<div>
 		<img src="images/logo.png" class='logo-img'>
 	</div>
-	<form class='sign-up' action="/some-server-endpoint" method='post'>
+	<form class='sign-up' action="/singup/" method='post'>
 		<h1>Sign Up</h1>
 		<fieldset name='log-in'>
 			<label for="email">Email</label>
-      		<input type="email" name='email' id='email' placeholder="foo@bar.com" />
+      		<input type="email" name='email' id='email' placeholder="foo@bar.com" pattern="*@*" required/>
       		<label for="password">Password</label>
-      		<input type="password" name='password' id='password' placeholder="1234passw0rd" />
+      		<input type="password" name='password' id='password' placeholder="1234passw0rd" required/>
+      		<button type='submit'>Sign Up</button>
 		</fieldset>
+		<a href="/forgot-password/new">Forgot password?</a>
 	</form>
+	</div>
+	<div class='log-in'>
+		<p>Already have an account? <a href="/login">Log in</a></p>
 	</div>
 </body>
 </html>	

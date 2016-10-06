@@ -16,7 +16,7 @@ body {
 
 .sign-up {
 	width: 400px;
-  	height: 600px;
+  	height: 500px;
   	background-color: white;
   	margin-left: auto;
   	margin-right: auto;
@@ -42,9 +42,46 @@ body {
 
 .sign-up input, .sign-up select {
 	display: block;
-	width: 320px;
-	height: 55px;
+	width: 286px;
+	height: 21px;
 	margin-left: 40px;
-	margin-right: 40px;
+	padding: 15px;
+	border: 2px solid gray;
+	border-radius: 5px;
 	font-size: 16px;
+}
+
+.sign-up button {
+	padding: 15px;
+	width: 320px;
+	margin-top: 40px;
+	margin-left: 40px;
+	background-color: mediumseagreen;
+	border-radius: 5px;
+	border: none;
+	font-size: 20px;
+	color: white;
+	font-weight: bold;	
+}
+
+.sign-up button:hover {
+	background-color: seagreen;
+}
+
+.sign-up a {
+	display: block;
+	color: silver;
+	text-align: center
+}
+
+.log-in p {
+	color: white;
+	text-align: center;
+	width: 400px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.log-in a {
+	color: white;
 }
