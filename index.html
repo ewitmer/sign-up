@@ -9,8 +9,15 @@
 	<div>
 		<img src="images/logo.png" class='logo-img'>
 	</div>
-	<div class='sign-up'>
+	<form class='sign-up' action="/some-server-endpoint" method='post'>
 		<h1>Sign Up</h1>
+		<fieldset name='log-in'>
+			<label for="email">Email</label>
+      		<input type="email" name='email' id='email' placeholder="foo@bar.com" />
+      		<label for="password">Password</label>
+      		<input type="password" name='password' id='password' placeholder="1234passw0rd" />
+		</fieldset>
+	</form>
 	</div>
 </body>
-</html>
+</html>	
